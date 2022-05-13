@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        * {
+            background-color: #ffffff;
+        }
+
+        .a {
+
+            background-color: #808080;
+
+            color: white;
+            width: 100%;
+            height: 80px;
+            position: relative;
+
+        }
+
+        .a .b {
+            position: absolute;
+            left: 45%;
+            top: 2px;
+            bottom: 2px;
+            background-color: #808080;
+        }
+
+        .img1 {
+            width: 400px;
+            height: 500px;
+            float: right;
+            margin-top: 50px;
+            margin-right: 50px;
+            z-index: -10;
+
+        }
+
+        .div2 {
+            position: center;
+        }
+
+        .h31 {
+            width: 170px;
+            margin-left: 621px;
+            margin-top: 190px;
+            color: black;
+
+
+        }
+
+       .card{
+            width: 150px;
+            height: 200px;
+            background: #ffffff;
+            border-radius: 4px;
+            transform: rotate(20deg) skew(-10deg, -5deg);
+            transition: box-shadow .25s ease-in;
+            margin-left: 100px;
+        }
+        .card:hover{
+            box-shadow:
+                    #808080 5px 3px,
+                    #808080 10px 6px;
+        }
+    </style>
+
+
+</head>
+<body>
+
+<div class="a">
+    <h1 class="b">
+        helo word
+    </h1>
+</div>
+
+<div class="img">
+    <img class="img1" src="img/pexels-elīna-arāja-3317936.jpg" alt="">
+
+</div>
+<div class="div2">
+    <h3 class="h31">این یک متن تست میباشد</h3>
+</div>
+
+<div>
+    <img class="card" src="img/12.jpg" alt="">
+</div>
+
+</body>
+</html>
